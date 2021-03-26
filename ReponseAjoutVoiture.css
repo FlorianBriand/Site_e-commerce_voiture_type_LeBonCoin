@@ -1,0 +1,59 @@
+body {
+  background-color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#principal {
+  background-image: url("img/FondReponseV.jpg");
+  background-size: cover;
+  background-position-x: 50%;
+  background-position-y: 50%;
+  padding-bottom: 35%;
+  text-align: center;
+  width: 100%;
+}
+.message_succes {
+  width: 100%;
+  color: green;
+  font-size: 200%;
+}
+
+#principal_gauche {
+  border-top: dotted 2px grey;
+  border-bottom: dotted 2px grey;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  padding: 2%;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 150%;
+  margin-left: 5%;
+  width: 30%;
+  float: left;
+}
+
+#image {
+  width: 400px;
+  max-height: 400px;
+}
+
+#principal_droite {
+  text-align: center;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 150%;
+  height: 50%;
+  margin-top: 3%;
+  margin-right: 2%;
+  width: 50%;
+  float: left;
+}
+
+#principal_droite_bas {
+}
+
+#Lien6 {
+  margin-top: 10%;
+  background-color: blue;
+  color: white;
+}

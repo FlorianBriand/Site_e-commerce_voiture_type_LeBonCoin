@@ -1,0 +1,273 @@
+/*Première photo*/
+
+#presentation {
+  background-image: url("img/2Car.jpg");
+  background-size: cover;
+  background-position-x: 50%;
+  background-position-y: 20%;
+  text-align: center;
+  width: 100%;
+  font-size: 20px;
+  color: white;
+  padding-top: 50px;
+  padding-bottom: 550px;
+}
+.texteIntro1 {
+  color: white;
+  font-family: "PT Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  font-size: 25px;
+  margin-left: 27%;
+  margin-right: 27%;
+  height: 45px;
+  text-align: center;
+}
+
+.texteIntro3 {
+  color: #757575;
+  font-family: "PT Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  font-size: 35px;
+}
+
+/*Fin première photo*/
+
+/*Inscription*/
+
+#inscription {
+  color: grey;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3%;
+  margin-bottom: 1%;
+  text-align: center;
+  border-right: none;
+  border-left: none;
+  border-top: solid 1px grey;
+  border-bottom: solid 1px grey;
+  width: 45%;
+  font-size: 20px;
+  height: 225px;
+}
+
+/*Fin Inscription*/
+
+/*Liens*/
+
+#Lien1 {
+  background-color: white;
+  color: black;
+}
+#Lien2 {
+  background-color: black;
+  color: white;
+}
+
+#Lien3 {
+  background-color: red;
+  color: white;
+}
+
+#Lien4 {
+  background-color: slateblue;
+  color: white;
+}
+#Lien5 {
+  background-color: black;
+  color: white;
+}
+
+/* Modèle*/
+
+#partie-model {
+  margin-top: 1%;
+  margin-bottom: 25%;
+  width: 100%;
+  height: 200px;
+}
+
+#partie-model-gauche {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  text-align: center;
+  color: black;
+  font-weight: normal;
+  width: 50%;
+  height: 50px;
+  font-weight: bold;
+  float: left;
+}
+
+#partie-model-droite {
+  margin-top: 1%;
+  margin-bottom: 20%;
+  margin-right: none;
+  width: 50%;
+  height: 150%;
+  float: right;
+}
+
+.Affaire {
+  margin-top: 10%;
+  margin-bottom: 5%;
+  margin-left: auto;
+  margin-right: auto;
+  color: black;
+  text-align: center;
+  font-size: 20px;
+  width: 60%;
+  height: 100px;
+}
+
+.zoom div img {
+  margin-top: 2%;
+  margin-bottom: none;
+  margin-left: 2%;
+  margin-right: none;
+  width: 45%;
+  height: 45%;
+  transition: 0.3s ease-in-out;
+  float: left;
+}
+
+.zoom div:hover img {
+  transform: scale(1.1);
+  float: left;
+}
+
+/*Fin modèle*/
+
+/* Mise en vente*/
+
+#partie-mise-vente {
+  margin-bottom: 10%;
+  width: 100%;
+  height: 400px;
+}
+
+#img-course {
+  background-position-x: 80%;
+  background-position-y: 50%;
+  margin-top: none;
+  margin-bottom: none;
+  margin-left: 1%;
+  margin-right: none;
+  width: 48%;
+  height: 120%;
+  float: left;
+}
+
+#mise-vente-droite {
+  font-weight: bold;
+  margin-top: none;
+  margin-bottom: none;
+  margin-left: none;
+  margin-right: 1%;
+  text-align: center;
+  width: 49%;
+  float: right;
+}
+
+#partie-model-gauche-milieu {
+  color: blue;
+  margin-top: 10%;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: auto;
+  color: black;
+  text-align: center;
+  font-size: 20px;
+  font-style: normal;
+  width: 100%;
+}
+
+#partie-model-gauche-bas {
+  margin-top: 10%;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: auto;
+  color: black;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  width: 50%;
+}
+
+/* Fin Mise en vente*/
+
+/* SAV */
+
+#sav {
+  margin-bottom: none;
+  margin-top: none;
+  width: 100%;
+  height: 500px;
+  background-color: grey;
+}
+#sav-gauche {
+  border-right: none;
+  border-left: none;
+  border-top: solid 1px black;
+  border-bottom: solid 1px black;
+  height: 240px;
+  text-align: center;
+  font-size: 20px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-style: italic;
+  margin-left: 7%;
+  margin-top: 7%;
+  margin-bottom: none;
+  width: 35%;
+  text-align: center;
+  float: left;
+}
+
+#retro {
+  background-position-x: 80%;
+  background-position-y: 50%;
+  border-right: none;
+  border-left: none;
+  border-top: solid 1px black;
+  border-bottom: solid 1px black;
+  text-align: center;
+  width: 48%;
+  float: right;
+  margin-top: none;
+  margin-bottom: none;
+  margin-right: none;
+  height: 99%;
+}
+
+/* Fin SAV */
+
+#Mentionslegales {
+  background-position-x: 50%;
+  background-position-y: 10%;
+  text-align: center;
+  margin-top: none;
+  width: 100%;
+  height: 375px;
+}
+
+#Mentionslegales-milieu {
+  color: black;
+  height: 200px;
+  text-align: center;
+  border-top: 20%;
+  font-size: 30px;
+  font-weight: bold;
+  width: 100%;
+}
+
+#Mentionslegales-milieu-centre {
+  color: black;
+  font-size: 50%;
+  width: 100%;
+}
+
+#Mentionslegales-bas {
+  font-size: 50%;
+}

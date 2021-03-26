@@ -1,0 +1,289 @@
+body {
+  background-image: url("img/FondArticle");
+  width: 100%;
+  background-size: cover;
+  background-position-x: 50%;
+  background-position-y: 50%;
+}
+
+#gauche {
+  font-family: "Courier New", Courier, monospace;
+  height: 1000px;
+  padding-left: 2%;
+  width: 12%;
+  float: left;
+  border-right: 2px solid gray;
+  font-size: 20px;
+}
+
+#ordre {
+  width: 62%;
+  font-size: 17.5px;
+}
+#haut_droite {
+  text-align: center;
+}
+
+#prixmin {
+  width: 11%;
+}
+
+#prixmax {
+  width: 11%;
+}
+
+#anneemin {
+  width: 13%;
+}
+
+#anneemax {
+  width: 13%;
+}
+
+#kmmin {
+  width: 11%;
+}
+
+#kmmax {
+  width: 11%;
+}
+
+#droite {
+  margin-top: 1%;
+  margin-left: 14%;
+  width: 100%;
+}
+.bord_article {
+  margin-left: 2%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  float: left;
+  width: 620px;
+  height: 250px;
+}
+
+.article {
+  font-family: "Courier New", Courier, monospace;
+  width: 600px;
+  height: 265px;
+
+  margin-left: 2%;
+  padding: 2%;
+  float: left;
+  box-sizing: border-box;
+  border: 3px solid #ccc;
+  font-size: 20px;
+  transition: 0.3s ease-in-out;
+}
+.article:hover {
+  transform: scale(1.1);
+  float: left;
+  border: 3px solid #555;
+}
+
+.photo_article {
+  margin-left: 10%;
+  margin-top: 2%;
+  width: 250px;
+  height: 150px;
+  border: 1px solid;
+  max-width: 250;
+  max-height: 150px;
+}
+
+.gauche_article {
+  float: left;
+  width: 50%;
+}
+
+.droite_article {
+  width: 50%;
+  float: left;
+}
+.message {
+  margin-top: 3%;
+  margin-left: 35%;
+  float: left;
+  width: 27%;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 600;
+  font-size: 21px;
+  padding: 8px 18px;
+  box-sizing: border-box;
+  border: 3px solid brown;
+}
+
+.message:hover {
+  border: 3px solid grey;
+  cursor: pointer;
+}
+input[type="number"] {
+  margin-left: 1%;
+  margin-right: 1%;
+  width: 10%;
+}
+
+#haut_droite {
+  width: 80%;
+  height: 100px;
+  margin-left: 12%;
+  padding-left: 5%;
+}
+
+.check {
+  width: 80%;
+}
+
+input[type="checkbox"] {
+  height: 20px;
+  width: 20px;
+}
+
+/* Partie message */
+
+.div_message:hover {
+  background-color: white;
+  color: black;
+  width: 40%;
+  height: 60%;
+  position: fixed;
+  right: 3%;
+  bottom: 0px;
+  transition: 0.3s ease-in-out;
+}
+.div_message {
+  background-color: white;
+  color: black;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  width: 30%;
+  height: 22%;
+  position: fixed;
+  right: 3%;
+  bottom: 0px;
+  transition: 0.3s ease-in-out;
+}
+
+.BarreHaut {
+  color: lightgrey;
+  text-align: center;
+  background-color: black;
+  padding: 2%;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  height: 4%;
+}
+
+#Txtcnt {
+  text-align: center;
+  font-style: 10%;
+  border-top-left-radius: 30px;
+  width: 100%;
+  color: white;
+}
+
+#TxtPagecnt {
+  text-align: center;
+  width: 100%;
+  margin-left: 5%;
+  font-style: 10%;
+  border-top-right-radius: 30px;
+  color: lightgrey;
+}
+
+#TexteMilieu {
+  margin-left: 2%;
+  width: 98%;
+  height: 100%;
+}
+
+#CVotreV {
+  color: gray;
+}
+
+#objet {
+  margin-top: 3%;
+  font-size: 100%;
+  width: 98%;
+}
+
+#corp {
+  font-size: 150%;
+  width: 97%;
+  height: 40%;
+  text-align: center;
+  border-style: dashed;
+  border-color: lightgray;
+  margin-top: 2%;
+}
+
+#BoutonEnvoyer {
+  margin-top: 6%;
+  text-align: center;
+  margin-left: 41%;
+}
+
+#AchatRapide {
+  font-weight: bold;
+  margin-left: 30%;
+}
+
+#FondPage {
+  background-color: red;
+  height: 800px;
+  background-image: url("img/FondAjoutV");
+  width: 100%;
+  background-size: cover;
+  background-position-x: 50%;
+  background-position-y: 50%;
+}
+
+#barre-milieu {
+  text-align: center;
+}
+
+#ensemble_article {
+  margin-top: 5%;
+  margin-left: 5%;
+}
+
+#Ensemble {
+  font-weight: bold;
+  font-size: 125%;
+  margin-top: 5%;
+  margin-left: 5%;
+}
+
+#messagerie {
+  margin-left: 5%;
+}
+
+#Envoyera {
+  font-size: 150%;
+}
+
+#Titre {
+  font-size: 150%;
+}
+
+#textemessagerie {
+  text-align: center;
+}
+
+#boutons_bas {
+  text-align: center;
+}
+
+#NMessage {
+  text-align: center;
+  font-size: 150%;
+  margin-top: 5%;
+  margin-left: 5%;
+}
+
+#Historique {
+  width: 20%;
+  float: left;
+  margin-left: 5%;
+  font-size: 150%;
+}
